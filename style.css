@@ -1,0 +1,806 @@
+body {
+    background-image: url(fon.jpg);
+}
+/* Hapka */
+nav {
+    width: 1260px;
+    margin: 0 auto;
+}
+nav:before{
+    content:''; 
+    height:60px;
+    display: block;
+    width:100%;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: green;
+    height: 60px;
+    line-height: 60px;
+}
+.home {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+.home:hover {
+    font-size: 40px;
+    margin-left: -0.7%;
+    color: white;
+    background-color: green;
+    transition: 1s background-color;
+
+}
+.obekt {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10%;
+}
+.obekt:hover {
+    font-size: 40px;
+    margin-left: 9%;
+    color: white;
+    background-color: green;
+    transition: 1s background-color;
+}
+.save {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 20%;
+}
+.save:hover {
+    font-size: 40px;
+    margin-left: 17.5%;
+    color: white;
+    background-color: green;
+    transition: 1s background-color;
+}
+.inst {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 40%;
+}
+.inst:hover {
+    font-size: 40px;
+    margin-left: 38.6%;
+    color: white;
+    background-color: green;
+    transition: 1s background-color;
+}
+.chert {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 55%;
+}
+.chert:hover {
+    font-size: 40px;
+    margin-left: 54.2%;
+    color: white;
+    background-color: green;
+    transition: 1s background-color;
+}
+/* Nazvania inst*/
+.hlobzik {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 11.5%;
+    z-index: 1;
+}
+.lobzik {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 11%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 26.8%;
+    padding-bottom: 13.5%;
+    border: black solid;
+    padding-top: 3%;
+    padding-left: 0.5%;
+    line-height: 1.4;
+}
+.photolobzik {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 14%;
+    width: 400px;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+.hnapil {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 45%;
+    z-index: 1;
+}
+.hapil {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 44.5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 26.4%;
+    padding-left: 0.5%;
+    padding-bottom: 3.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 1.4;
+}
+.photonapil {
+    width: 400px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 47%;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+.hnajdak {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 75%;
+    z-index: 1;
+}
+.najdak {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 74.5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 25.8%;
+    padding-left: 0.5%;
+    padding-bottom: 3.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 1.4;
+}
+.photonajdak {
+    width: 400px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 76%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+.hbor {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 100%;
+    z-index: 1;
+}
+.bor {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 99.5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 25.8%;
+    padding-left: 1%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 1.4;
+}
+.photobor {
+    width: 400px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 105%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+.hellobs {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 129%;
+    z-index: 1;
+}
+.ellobs {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 128.5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 25.8%;
+    padding-left: 1%;
+    padding-bottom: 8.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 1.4;
+}
+.photoellobs {
+    width: 400px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 131%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+.hshur {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 157%;
+    z-index: 1;
+}
+.shur {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 156.5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 25.8%;
+    padding-left: 0.7%;
+    padding-bottom: 5.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 1.4;
+}
+.photoshur {
+    width: 400px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 159%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+/* Save */
+.hsavelob {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 10%;
+    z-index: 1;
+}
+.savelob {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 9%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hsavenapil {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 36%;
+    z-index: 1;
+}
+.savenapil {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 35%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 11.9%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hnaj {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 60%;
+    z-index: 1;
+}
+.naj {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 59%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 4%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hgrav {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 84%;
+    z-index: 1;
+}
+.grav {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 83%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 3.2%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hsaveel {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 105%;
+    z-index: 1;
+}
+.saveel {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 104%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 12.3%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hsaveshur {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 129%;
+    z-index: 1;
+}
+.saveshur {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 128%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 6.4%;
+    padding-left: 3%;
+    padding-bottom: 1.3%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+/* Obekti*/
+.f1 {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 55%;
+    padding-left: 3%;
+    padding-bottom: 15%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.k-h {
+    position: absolute;
+    margin-left: 40.4%;
+    margin-top: 6.4%;
+    z-index: 1;
+}
+.k-bio {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.k-s {
+    text-decoration: none;
+    color: black;
+}
+.f2 {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 25%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 55%;
+    padding-left: 3%;
+    padding-bottom: 15%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.n-h {
+    position: absolute;
+    margin-left: 40.4%;
+    margin-top: 26.7%;
+    z-index: 1;
+}
+.n-s {
+    text-decoration: none;
+    color: black;
+}
+.n-bio {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 30%;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.k-f {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 55%;
+    padding-left: 3%;
+    padding-bottom: 180%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+}
+.hpotokatana {
+    position: absolute;
+    margin-left: 22%;
+    width: 240px;
+    height: 300px;
+    margin-top: 6%;
+}
+/*Katana*/
+.photokatana3 {
+    position: absolute;
+    margin-left: 25.5%;
+    margin-top: 11%;
+    height: 600px;
+}
+.hkatana {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 7%;
+    font-size: 40px;
+}
+.k-instrumenti {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 44%;
+    font-size: 30px;
+}
+.k-perechen {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 52%;
+    font-size: 30px;
+}
+.kh11 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    height: 250px;
+    border: black;
+    border-radius: 1%;
+}
+.t11-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 64%;
+    font-size: 30px;
+}
+.t11-2 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 73%;
+    font-size: 30px;
+}
+.kh12 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 90%;
+    height: 300px;
+    border: black;
+    border-radius: 1%;  
+}
+.k12 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 83%;
+    font-size: 30px;
+}
+.t11-05 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 47%;
+    font-size: 30px;
+}
+.t12-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 86%;
+    font-size: 30px
+}
+.k-perechen12 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 91%;
+    font-size: 30px
+}
+.t12-2 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 107%;
+    font-size: 30px
+}
+.kh13 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 132%;
+    height: 240px;
+    width: 390px;
+    border: black;
+    border-radius: 1%;
+}
+.k13 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 125%;
+    font-size: 30px;
+}
+.t13-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 128%;
+    font-size: 30px
+}
+.k-perechen13 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 133%;
+    font-size: 30px
+}
+.t13-2 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 147%;
+    font-size: 30px
+}
+.t13-3 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 158%;
+    font-size: 30px
+}
+.k14 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 168%;
+    font-size: 30px;
+}
+.t14 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 171%;
+    font-size: 30px;
+}
+.k15 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 179%;
+    font-size: 30px;
+}
+.t15 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 182%;
+    font-size: 30px;
+}
+/* Podstavka from knifes*/
+.hnoji {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 7%;
+    font-size: 40px;
+}
+.hhn {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 44%;
+    font-size: 30px;
+}
+.t21-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top:47%;
+    font-size: 30px;
+}
+.n-perechen21 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 52%;
+    font-size: 30px;
+}
+.t212 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 68%;
+    font-size: 30px;
+}
+.t21-3 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 77%;
+    font-size: 30px;
+}
+.h12 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 84%;
+    font-size: 30px;
+}
+.t22-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 87%;
+    font-size: 30px;
+}
+.n-perechen22 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 92%;
+    font-size: 30px;
+}
+.t22-2 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 108%;
+    font-size: 30px;
+}
+.t22-3 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 116%;
+    font-size: 30px;
+}
+.h13 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 123%;
+    font-size: 30px;
+}
+.t23-1 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 126%;
+    font-size: 30px;
+}
+.n-perechen23 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 131%;
+    font-size: 30px;
+}
+.t23-2 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 147%;
+    font-size: 30px;
+}
+.t23-3 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 155%;
+    font-size: 30px;
+}
+.h14 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 162%;
+    font-size: 30px;
+}
+.t24 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 165%;
+    font-size: 30px;
+}
+.h15 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 175%;
+    font-size: 30px;
+}
+.t25 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 178%;
+    font-size: 30px;
+}
+.c-f {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: grey;
+    padding-right: 55%;
+    padding-left: 3%;
+    padding-bottom: 170%;
+    border: black solid;
+    padding-top: 3%;
+    line-height: 2;
+    z-index: -1;
+}
+.c-h {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 8%;
+    font-size: 30px;
+}
+.c-t {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 11%;
+    font-size: 30px;
+}
+.c-osn {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 18%;
+    font-size: 30px;
+}
+.c-p-o {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 22%;
+    width: 850px;
+}
+.c-voin {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 56%;
+    font-size: 30px;
+}
+.c-p-v {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 60%;
+    width: 850px;
+}
+.c-shield {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 94%;
+    font-size: 30px;
+}
+.c-p-s {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 98%;
+    width: 850px;
+}
+.c-katana {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 132%;
+    font-size: 30px;
+}
+.c-k1 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 136%;
+    width: 450px;
+    transform: scaleX(-1);
+}
+.c-k2 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 136%;
+    width: 450px;
+    transform: rotate(90);
+}
